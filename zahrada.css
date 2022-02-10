@@ -95,9 +95,3 @@ ul.navbar {
   color: var(--orange-dim);
   border: solid 2px;
 }
-
-.article3iframe {
-  height: 400px;
-  width: 1200px;
-  border: dashed 2px;
-}
