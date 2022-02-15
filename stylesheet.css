@@ -43,7 +43,13 @@
 
 body {
   background-color: var(--bg-hard);
-  background-image: url("images/pattern_118.gif");
+  background-image:
+    radial-gradient(var(--fg), rgba(251, 241, 199, .2) 2px, transparent 40px),
+    radial-gradient(var(--fg), rgba(251, 241, 199, .15) 1px, transparent 30px),
+    radial-gradient(var(--fg), rgba(251, 241, 199, .1) 2px, transparent 40px),
+    radial-gradient(rgba(251, 241, 199, .4), rgba(251, 241, 199, .1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: Roboto;
 }
 
@@ -87,14 +93,18 @@ ul.navbar {
 }
 
 .articleCommon {
-  background-color: var(--bg);
   color: var(--purple-dim);
   padding: 14px 16px;
-  border: dashed 2px;
 }
 
 .article2 {
-  background-color: var(--bg);
   color: var(--orange-dim);
-  border: solid 2px;
+}
+
+.headlineCommon {
+  text-decoration: underline wavy;
+}
+
+iframe {
+  border: none;
 }
