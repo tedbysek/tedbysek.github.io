@@ -36,60 +36,63 @@
 
 #home {
   color: var(--aqua);
-  background-color: var(--bg-soft);
   padding: 14px 16px;
-  border-style: solid solid none solid;
+  font-size: 20px;
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--purple);
 }
 
 body {
   background-color: var(--bg-hard);
   background-image:
-    radial-gradient(var(--fg), rgba(251, 241, 199, .2) 2px, transparent 40px),
-    radial-gradient(var(--fg), rgba(251, 241, 199, .15) 1px, transparent 30px),
-    radial-gradient(var(--fg), rgba(251, 241, 199, .1) 2px, transparent 40px),
-    radial-gradient(rgba(251, 241, 199, .4), rgba(251, 241, 199, .1) 2px, transparent 30px);
+    radial-gradient(var(--fg), rgba(251, 241, 199, .2) 2px, transparent 30px),
+    radial-gradient(var(--fg), rgba(251, 241, 199, .15) 1px, transparent 20px),
+    radial-gradient(var(--fg), rgba(251, 241, 199, .1) 2px, transparent 30px),
+    radial-gradient(rgba(251, 241, 199, .4), rgba(251, 241, 199, .1) 2px, transparent 20px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: Roboto;
 }
 
-li.navbarLink {
-  float: left;
-}
-
-li.navbarLink a {
-  display: block;
-  color: var(--fg);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-li.navbarTitle {
-  text-align: center;
-  padding: 14px 16px;
-  display: block;
-  float: right;
-  color: var(--green-dim);
-  font-weight: bold;
-}
-
-li.navbarLink a:hover {
-  background-color: var(--bg-hard);
-}
-
 ul.navbar {
   list-style-type: none;
-  overflow: hidden;
-  position: sticky;
-  position: -webkit-sticky;
-  padding: 0;
   margin: 0;
-  background-color: var(--bg);
-  top: 0;
-  border-color: var(--green-dim);
-  border-style: none solid solid solid;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  text-align: right;
+  border-style: none dashed none none;
+  border-color: var(--red);
+}
+
+ul.navbar li a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+ul.navbar li {
+  display: block;
+  color: var(--yellow);
+  font-size: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+ul.navbar li a:hover {
+  color: var(--blue);
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 2px;
+  height: 100%;
 }
 
 .articleCommon {
