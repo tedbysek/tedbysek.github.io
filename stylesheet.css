@@ -104,7 +104,7 @@ div.content {
     border: none;
   }
 
-  ul.navbar li a {
+  ul.navbar li {
     float: left;
     padding: 15px;
   }
