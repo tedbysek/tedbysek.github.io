@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 :root {
   --bg-hard: #1d2021;
@@ -35,8 +35,8 @@
 }
 
 #home {
-  color: var(--aqua);
-  padding: 14px 16px;
+  color: var(--yellow-dim);
+  /*padding: 14px 16px;*/
   font-size: 20px;
 }
 
@@ -81,8 +81,8 @@ ul.navbar li a {
 ul.navbar li {
   display: block;
   color: var(--yellow);
-  font-size: 20px;
   padding: 8px 16px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ ul.navbar li a:hover {
 
 div.content {
   margin-left: 25%;
-  padding: 1px 2px;
+  padding: 14px 16px;
   height: 100%;
 }
 
@@ -101,27 +101,20 @@ div.content {
     width: 100%;
     height: auto;
     position: relative;
-    border: none;
+    border-style: none none dashed none;
   }
 
   ul.navbar li {
     float: left;
-    padding: 15px;
+    padding: 10px;
   }
 
   div.content {margin-left: 0;}
 }
 
-@media screen and (max-width: 400px) {
-  ul.navbar li a {
-    text-align: center;
-    float: none;
-  }
-}
-
 .articleCommon {
   color: var(--purple-dim);
-  padding: 14px 16px;
+  /*padding: 14px 16px;*/
 }
 
 .article2 {
@@ -130,6 +123,10 @@ div.content {
 
 .headlineCommon {
   text-decoration: underline wavy;
+}
+
+.contentCommon {
+  font-size: 20px;
 }
 
 iframe {
