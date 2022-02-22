@@ -39,28 +39,28 @@
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold\ Italic.ttf)
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold\ Italic.ttf);
   font-style: italic;
   font-weight: bold;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold.ttf)
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold.ttf);
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Italic.ttf)
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Italic.ttf);
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Regular.ttf)
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Regular.ttf);
   font-style: normal;
   font-weight: normal;
 }
@@ -131,6 +131,7 @@ div.content {
   padding: 14px 16px;
   height: 100%;
   font-family: CheltenhamCondensed;
+  overflow: none;
 }
 
 @media screen and (max-width: 900px) {
