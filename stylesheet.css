@@ -138,7 +138,7 @@ div.content {
   ul.navbar {
     width: 100%;
     height: auto;
-    position: sticky;
+    position: fixed;
     border-style: none none dashed none;
   }
 
