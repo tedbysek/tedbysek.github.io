@@ -134,24 +134,6 @@ div.content {
   overflow: none;
 }
 
-@media screen and (max-width: 900px) {
-  ul.navbar {
-    width: 100%;
-    height: auto;
-    position: fixed;
-    border-style: none none dashed none;
-  }
-
-  ul.navbar li {
-    float: left;
-    padding: 10px;
-  }
-
-  div.content {
-    margin-left: 0;
-  }
-}
-
 .articleCommon {
   color: var(--fg2);
   /*padding: 14px 16px;*/
@@ -218,5 +200,27 @@ iframe {
 
   body {
     background-image: url(images/pattern_140.gif);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ul.navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-style: none none dashed none;
+  }
+
+  ul.navbar li {
+    float: left;
+    padding: 10px;
+  }
+
+  ul.navbar li.navbarLinkHome {
+    display: none;
+  }
+
+  div.content {
+    margin-left: 0;
   }
 }
