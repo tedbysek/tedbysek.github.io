@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg-hard: #1d2021;
   --bg:      #282828;
   --bg-soft: #32302f;
@@ -39,28 +39,28 @@
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold\ Italic.ttf);
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold\ Italic.otf);
   font-style: italic;
   font-weight: bold;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold.ttf);
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Bold.otf);
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Italic.ttf);
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Italic.otf);
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: CheltenhamCondensed;
-  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Regular.ttf);
+  src: url(fonts/CheltenhamCondensed/Cheltenham\ Condensed\ Regular.otf);
   font-style: normal;
   font-weight: normal;
 }
