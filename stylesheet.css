@@ -163,6 +163,10 @@ iframe {
   max-width: 100% !important;
 }
 
+iframe.iframe7 {
+  height: 700px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-hard: #f9f5d7;
